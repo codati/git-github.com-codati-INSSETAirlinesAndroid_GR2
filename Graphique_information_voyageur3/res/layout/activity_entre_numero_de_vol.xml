@@ -20,7 +20,8 @@
         android:layout_alignParentLeft="true"
         android:layout_toLeftOf="@+id/buttonValierCodeBillet"
         android:ems="10"
-        android:hint="@string/editTextCodeBillet_hint" />
+        android:hint="@string/editTextCodeBillet_hint"
+        android:inputType="number" />
 
     <ImageView
         android:id="@+id/imageViewLogo"
@@ -29,5 +30,15 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/logo_insset_projet" />
+
+    <Button
+        android:id="@+id/buttonScanne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextCodeBillet"
+        android:layout_marginTop="19dp"
+        android:text="@string/bouttonScanne" />
 
 </RelativeLayout>

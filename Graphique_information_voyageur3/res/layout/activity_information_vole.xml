@@ -1,19 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical" >
-    <TextView
-        android:id="@+id/textView1"
+<!--     <TextView
+        android:id="@+id/textViewRemarqueVole"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_Demo"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="86dp"
-        android:text="voir les escales" />
-    
+        android:textAppearance="?android:attr/textAppearanceLarge" /> -->    <TextView        android:id="@+id/textViewRemarqueVole"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:textAppearance="?android:attr/textAppearanceLarge" />    <GridView        android:id="@+id/gridViewList"        android:layout_width="match_parent"        android:layout_height="wrap_content"        android:numColumns="3" >    </GridView>    
 </LinearLayout>

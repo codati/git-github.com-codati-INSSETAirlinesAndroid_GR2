@@ -9,4 +9,5 @@
     <string name="text_Demo">"Votre vol est prévu pour 15h mais a 5min de retard
 ce vol aura 2 escales"</string>
     <string name="ListeDesEscaleActivityLabel">liste des escales</string>
+    <string name="bouttonScanne">Scanne le QR code de votre Biller</string>
 </resources>
